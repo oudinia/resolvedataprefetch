@@ -1,0 +1,8 @@
+<p>
+  competitions works!
+</p>
+<h2 *ngIf="competitions">Competitions list</h2>
+<ul>
+<li *ngFor="let item of competitions">{{item.name}}</li>
+</ul>
+<router-outlet></router-outlet>

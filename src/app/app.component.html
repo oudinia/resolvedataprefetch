@@ -1,3 +1,14 @@
 <h1>
-  {{title}}
+  Soccerama
 </h1>
+
+<div class="navbar navbar-light bg-faded">
+<ul class="nav">
+  <li class="nav-item">
+    <a [routerLink]="['/competitions']">Competitions</a>
+  </li>
+</ul>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
